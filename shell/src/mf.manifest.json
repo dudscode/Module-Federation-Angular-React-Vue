@@ -1,0 +1,7 @@
+{
+    "remotes": {
+      "mfeAngular": "http://localhost:4201/remoteEntry.js",
+      "mfeReact": "mfeReact@http://localhost:4202/remoteEntry.js",
+      "HelloWord": "HelloWord@http://localhost:3002/remoteEntry.js"
+    }
+  }

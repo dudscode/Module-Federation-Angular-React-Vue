@@ -1,0 +1,16 @@
+<main >
+  <h1> Shell MFE`s </h1>
+  <h2>Lojinha de esportes</h2>
+  <section>
+    <mat-tab-group mat-align-tabs="center" animationDuration="0ms" color="accent" (focusChange)="tabSelect($event)">
+      <mat-tab label="Home"></mat-tab>
+      <mat-tab label="Masculino"></mat-tab>
+      <mat-tab label="Feminino"></mat-tab>
+    </mat-tab-group>
+    
+  </section>
+  <div>
+    <router-outlet></router-outlet>
+  </div>
+
+</main>
