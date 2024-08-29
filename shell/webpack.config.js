@@ -38,7 +38,6 @@ module.exports = {
               ...shareAll({ singleton: true, strictVersion: true, requiredVersion: 'auto' }),
             },        
     }),
-    // Uncomment for sharing lib of an Angular CLI or Nx workspace
     sharedMappings.getPlugin(),
   ],
 };

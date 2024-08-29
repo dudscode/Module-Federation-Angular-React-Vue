@@ -30,9 +30,8 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
 
-      // For remotes (please adjust)
       name: "mfeAngular",
-      filename: "remoteEntry.js",  // 2-3K w/ Meta Data
+      filename: "remoteEntry.js", 
       exposes: {
         './AppComponent': './src/app/app.component.ts',
       },
@@ -41,7 +40,7 @@ module.exports = {
       },
 
     }),
-    // Uncomment for sharing lib of an Angular CLI or Nx workspace
+    
     sharedMappings.getPlugin(),
   ],
 };

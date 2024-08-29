@@ -27,7 +27,7 @@ export const routes: Routes = [
     path: 'mfe-vue',
     component: WebComponentWrapper,
     data: {
-      remoteEntry: "http://localhost:3002/remoteEntry.js",
+      remoteEntry: "http://localhost:4003/remoteEntry.js",
       remoteName: "mfeVue",
       exposedModule: "./HelloWord",
       elementName: 'vue-element'
